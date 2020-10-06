@@ -19,6 +19,8 @@
 		16848334252C7EF600BEE46A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16848333252C7EF600BEE46A /* HomeViewController.swift */; };
 		16848339252C7F2100BEE46A /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16848338252C7F2100BEE46A /* Home.storyboard */; };
 		1684833E252C7F4600BEE46A /* Onboarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1684833D252C7F4600BEE46A /* Onboarding.storyboard */; };
+		16FBD2BB252D35E3003A474A /* MiniGamesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FBD2BA252D35E3003A474A /* MiniGamesViewController.swift */; };
+		16FBD2C3252D35EE003A474A /* MiniGames.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16FBD2C2252D35EE003A474A /* MiniGames.storyboard */; };
 		AB129BB2252CB4A5002FB772 /* Charts in Frameworks */ = {isa = PBXBuildFile; productRef = AB129BB1252CB4A5002FB772 /* Charts */; };
 		AB284F12252C3283006B6727 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB284F11252C3283006B6727 /* AppDelegate.swift */; };
 		AB284F14252C3283006B6727 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB284F13252C3283006B6727 /* SceneDelegate.swift */; };
@@ -60,6 +62,8 @@
 		16848333252C7EF600BEE46A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		16848338252C7F2100BEE46A /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		1684833D252C7F4600BEE46A /* Onboarding.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Onboarding.storyboard; sourceTree = "<group>"; };
+		16FBD2BA252D35E3003A474A /* MiniGamesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniGamesViewController.swift; sourceTree = "<group>"; };
+		16FBD2C2252D35EE003A474A /* MiniGames.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MiniGames.storyboard; sourceTree = "<group>"; };
 		AB284F0E252C3283006B6727 /* Macro43.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Macro43.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB284F11252C3283006B6727 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AB284F13252C3283006B6727 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -229,6 +233,31 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		16FBD2B7252D35C6003A474A /* MiniGames */ = {
+			isa = PBXGroup;
+			children = (
+				16FBD2B9252D35D2003A474A /* Controllers */,
+				16FBD2B8252D35CF003A474A /* Views */,
+			);
+			path = MiniGames;
+			sourceTree = "<group>";
+		};
+		16FBD2B8252D35CF003A474A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				16FBD2C2252D35EE003A474A /* MiniGames.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		16FBD2B9252D35D2003A474A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				16FBD2BA252D35E3003A474A /* MiniGamesViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		AB284F05252C3283006B6727 = {
 			isa = PBXGroup;
 			children = (
@@ -252,6 +281,7 @@
 		AB284F10252C3283006B6727 /* Macro43 */ = {
 			isa = PBXGroup;
 			children = (
+				16FBD2B7252D35C6003A474A /* MiniGames */,
 				164B7A36252C8B5A00F0C17A /* Settings */,
 				164B7A26252C8A1200F0C17A /* DetectEmotion */,
 				164B7A09252C889000F0C17A /* MySpace */,
@@ -400,6 +430,7 @@
 				1684833E252C7F4600BEE46A /* Onboarding.storyboard in Resources */,
 				164B7A32252C8A4100F0C17A /* DetectEmotion.storyboard in Resources */,
 				AB284F1E252C3285006B6727 /* Assets.xcassets in Resources */,
+				16FBD2C3252D35EE003A474A /* MiniGames.storyboard in Resources */,
 				16848339252C7F2100BEE46A /* Home.storyboard in Resources */,
 				164B7A42252C8BA400F0C17A /* Settings.storyboard in Resources */,
 			);
@@ -435,6 +466,7 @@
 				164B7A2A252C8A3400F0C17A /* DetectEmotionViewController.swift in Sources */,
 				AB284F14252C3283006B6727 /* SceneDelegate.swift in Sources */,
 				164B7A0F252C88B000F0C17A /* MySpaceViewController.swift in Sources */,
+				16FBD2BB252D35E3003A474A /* MiniGamesViewController.swift in Sources */,
 				164B7A1D252C893A00F0C17A /* InsertNameViewController.swift in Sources */,
 				16848334252C7EF600BEE46A /* HomeViewController.swift in Sources */,
 			);

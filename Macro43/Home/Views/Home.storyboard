@@ -47,6 +47,14 @@
                                     <segue destination="AmW-tz-NKO" kind="show" id="dqr-B4-hvA"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XfN-Ab-une">
+                                <rect key="frame" x="168" y="706" width="79" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Mini games"/>
+                                <connections>
+                                    <segue destination="ce9-gL-0zC" kind="show" id="cpe-se-moX"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="09h-Lj-Wik"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -75,6 +83,16 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="M6D-wZ-Hhs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="980" y="288"/>
+        </scene>
+        <!--MiniGamesViewController-->
+        <scene sceneID="SOL-fx-j6T">
+            <objects>
+                <viewControllerPlaceholder storyboardName="MiniGames" referencedIdentifier="MiniGamesViewController" id="ce9-gL-0zC" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="dHu-cm-ccW"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dlJ-y8-W7h" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="991" y="361"/>
         </scene>
         <!--DetectEmotionViewController-->
         <scene sceneID="bja-tG-7XN">
