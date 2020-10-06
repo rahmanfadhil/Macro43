@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Home View Controller-->
+        <scene sceneID="2Hr-wC-3sE">
+            <objects>
+                <viewController storyboardIdentifier="HomeViewController" modalPresentationStyle="fullScreen" id="tan-q7-2bf" customClass="HomeViewController" customModule="Macro43" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="I8N-zK-YmH">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Home" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oDl-gh-b03">
+                                <rect key="frame" x="184" y="438" width="46" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dBl-BH-ct3">
+                                <rect key="frame" x="173" y="572" width="68" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="My Space"/>
+                                <connections>
+                                    <segue destination="bcJ-0n-fZ8" kind="show" id="riE-kt-TmF"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w8Z-Ar-qYw">
+                                <rect key="frame" x="154" y="513" width="106" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Detect Emotion"/>
+                                <connections>
+                                    <segue destination="E6Z-O5-xLK" kind="show" id="Hc4-dH-xCB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZYP-BY-Pi9">
+                                <rect key="frame" x="179" y="638" width="57" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Settings"/>
+                                <connections>
+                                    <segue destination="AmW-tz-NKO" kind="show" id="dqr-B4-hvA"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="09h-Lj-Wik"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cim-ie-W4l" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="226" y="146"/>
+        </scene>
+        <!--MySpaceViewController-->
+        <scene sceneID="zcW-pI-kFU">
+            <objects>
+                <viewControllerPlaceholder storyboardName="MySpace" referencedIdentifier="MySpaceViewController" id="bcJ-0n-fZ8" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="nY3-y9-hoY"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MEJ-9u-i9G" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="980" y="192"/>
+        </scene>
+        <!--SettingsViewController-->
+        <scene sceneID="ZWz-zN-Vgp">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Settings" referencedIdentifier="SettingsViewController" id="AmW-tz-NKO" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="fVF-jm-mfp"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="M6D-wZ-Hhs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="980" y="288"/>
+        </scene>
+        <!--DetectEmotionViewController-->
+        <scene sceneID="bja-tG-7XN">
+            <objects>
+                <viewControllerPlaceholder storyboardName="DetectEmotion" referencedIdentifier="DetectEmotionViewController" id="E6Z-O5-xLK" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="Y3h-0X-Luh"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="A2K-qv-0FK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="990" y="104"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
