@@ -39,6 +39,14 @@
                                     <segue destination="E6Z-O5-xLK" kind="show" id="Hc4-dH-xCB"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZYP-BY-Pi9">
+                                <rect key="frame" x="179" y="638" width="57" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Settings"/>
+                                <connections>
+                                    <segue destination="AmW-tz-NKO" kind="show" id="dqr-B4-hvA"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="09h-Lj-Wik"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -57,6 +65,16 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MEJ-9u-i9G" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="980" y="192"/>
+        </scene>
+        <!--SettingsViewController-->
+        <scene sceneID="ZWz-zN-Vgp">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Settings" referencedIdentifier="SettingsViewController" id="AmW-tz-NKO" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="fVF-jm-mfp"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="M6D-wZ-Hhs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="980" y="288"/>
         </scene>
         <!--DetectEmotionViewController-->
         <scene sceneID="bja-tG-7XN">
