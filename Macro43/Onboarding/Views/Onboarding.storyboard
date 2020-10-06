@@ -40,10 +40,10 @@
             </objects>
             <point key="canvasLocation" x="-433.33333333333337" y="178.79464285714286"/>
         </scene>
-        <!--View Controller-->
+        <!--Insert Name View Controller-->
         <scene sceneID="3Tw-I7-GY7">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="aNZ-zr-pU1" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="aNZ-zr-pU1" customClass="InsertNameViewController" customModule="Macro43" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="vid-0F-lhH">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -79,10 +79,10 @@
             </objects>
             <point key="canvasLocation" x="341" y="179"/>
         </scene>
-        <!--View Controller-->
+        <!--Select Color View Controller-->
         <scene sceneID="nKT-ps-QBQ">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="yfN-57-hlR" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="yfN-57-hlR" customClass="SelectColorViewController" customModule="Macro43" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Nf7-vI-sF3">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

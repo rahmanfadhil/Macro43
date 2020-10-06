@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		164B7A0F252C88B000F0C17A /* MySpaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164B7A0E252C88B000F0C17A /* MySpaceViewController.swift */; };
+		164B7A18252C88C100F0C17A /* MySpace.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 164B7A17252C88C100F0C17A /* MySpace.storyboard */; };
+		164B7A1D252C893A00F0C17A /* InsertNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164B7A1C252C893A00F0C17A /* InsertNameViewController.swift */; };
+		164B7A22252C896000F0C17A /* SelectColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164B7A21252C896000F0C17A /* SelectColorViewController.swift */; };
 		1684832C252C7EEE00BEE46A /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1684832B252C7EEE00BEE46A /* OnboardingViewController.swift */; };
 		16848334252C7EF600BEE46A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16848333252C7EF600BEE46A /* HomeViewController.swift */; };
 		16848339252C7F2100BEE46A /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16848338252C7F2100BEE46A /* Home.storyboard */; };
@@ -39,6 +43,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		164B7A0E252C88B000F0C17A /* MySpaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySpaceViewController.swift; sourceTree = "<group>"; };
+		164B7A17252C88C100F0C17A /* MySpace.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MySpace.storyboard; sourceTree = "<group>"; };
+		164B7A1C252C893A00F0C17A /* InsertNameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertNameViewController.swift; sourceTree = "<group>"; };
+		164B7A21252C896000F0C17A /* SelectColorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectColorViewController.swift; sourceTree = "<group>"; };
 		1684832B252C7EEE00BEE46A /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
 		16848333252C7EF600BEE46A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		16848338252C7F2100BEE46A /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
@@ -84,6 +92,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		164B7A09252C889000F0C17A /* MySpace */ = {
+			isa = PBXGroup;
+			children = (
+				164B7A16252C88B400F0C17A /* Views */,
+				164B7A0D252C889B00F0C17A /* Controllers */,
+			);
+			path = MySpace;
+			sourceTree = "<group>";
+		};
+		164B7A0D252C889B00F0C17A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				164B7A0E252C88B000F0C17A /* MySpaceViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		164B7A16252C88B400F0C17A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				164B7A17252C88C100F0C17A /* MySpace.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		16848329252C7EB000BEE46A /* Onboarding */ = {
 			isa = PBXGroup;
 			children = (
@@ -122,6 +155,8 @@
 			isa = PBXGroup;
 			children = (
 				1684832B252C7EEE00BEE46A /* OnboardingViewController.swift */,
+				164B7A1C252C893A00F0C17A /* InsertNameViewController.swift */,
+				164B7A21252C896000F0C17A /* SelectColorViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -157,6 +192,7 @@
 		AB284F10252C3283006B6727 /* Macro43 */ = {
 			isa = PBXGroup;
 			children = (
+				164B7A09252C889000F0C17A /* MySpace */,
 				1684832A252C7EBB00BEE46A /* Home */,
 				16848329252C7EB000BEE46A /* Onboarding */,
 				AB284F11252C3283006B6727 /* AppDelegate.swift */,
@@ -291,6 +327,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				164B7A18252C88C100F0C17A /* MySpace.storyboard in Resources */,
 				AB284F21252C3285006B6727 /* LaunchScreen.storyboard in Resources */,
 				1684833E252C7F4600BEE46A /* Onboarding.storyboard in Resources */,
 				AB284F1E252C3285006B6727 /* Assets.xcassets in Resources */,
@@ -320,10 +357,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB284F16252C3283006B6727 /* ViewController.swift in Sources */,
+				164B7A22252C896000F0C17A /* SelectColorViewController.swift in Sources */,
 				AB284F1C252C3283006B6727 /* Macro43.xcdatamodeld in Sources */,
 				1684832C252C7EEE00BEE46A /* OnboardingViewController.swift in Sources */,
 				AB284F12252C3283006B6727 /* AppDelegate.swift in Sources */,
 				AB284F14252C3283006B6727 /* SceneDelegate.swift in Sources */,
+				164B7A0F252C88B000F0C17A /* MySpaceViewController.swift in Sources */,
+				164B7A1D252C893A00F0C17A /* InsertNameViewController.swift in Sources */,
 				16848334252C7EF600BEE46A /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
