@@ -87,8 +87,8 @@
 		16848329252C7EB000BEE46A /* Onboarding */ = {
 			isa = PBXGroup;
 			children = (
-				1684832B252C7EEE00BEE46A /* OnboardingViewController.swift */,
-				1684833D252C7F4600BEE46A /* Onboarding.storyboard */,
+				16848348252C85E600BEE46A /* Views */,
+				16848347252C85E000BEE46A /* Controllers */,
 			);
 			path = Onboarding;
 			sourceTree = "<group>";
@@ -96,10 +96,42 @@
 		1684832A252C7EBB00BEE46A /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				16848333252C7EF600BEE46A /* HomeViewController.swift */,
-				16848338252C7F2100BEE46A /* Home.storyboard */,
+				16848346252C85C400BEE46A /* Views */,
+				16848345252C85B500BEE46A /* Controllers */,
 			);
 			path = Home;
+			sourceTree = "<group>";
+		};
+		16848345252C85B500BEE46A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				16848333252C7EF600BEE46A /* HomeViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		16848346252C85C400BEE46A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				16848338252C7F2100BEE46A /* Home.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		16848347252C85E000BEE46A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1684832B252C7EEE00BEE46A /* OnboardingViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		16848348252C85E600BEE46A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1684833D252C7F4600BEE46A /* Onboarding.storyboard */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		AB284F05252C3283006B6727 = {
