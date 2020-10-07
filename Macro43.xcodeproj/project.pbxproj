@@ -23,6 +23,8 @@
 		16E8FFC0252D4DD700E53B10 /* PopBubbleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E8FFBF252D4DD700E53B10 /* PopBubbleViewController.swift */; };
 		16E8FFD1252D4FE600E53B10 /* Breathing.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16E8FFD0252D4FE600E53B10 /* Breathing.storyboard */; };
 		16E8FFD6252D4FF400E53B10 /* BreathingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E8FFD5252D4FF400E53B10 /* BreathingViewController.swift */; };
+		16E8FFDD252D506F00E53B10 /* SmashIt.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16E8FFDC252D506F00E53B10 /* SmashIt.storyboard */; };
+		16E8FFE3252D509200E53B10 /* SmashItViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E8FFE2252D509200E53B10 /* SmashItViewController.swift */; };
 		16FBD2BB252D35E3003A474A /* MiniGamesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FBD2BA252D35E3003A474A /* MiniGamesViewController.swift */; };
 		16FBD2C3252D35EE003A474A /* MiniGames.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16FBD2C2252D35EE003A474A /* MiniGames.storyboard */; };
 		AB129BB2252CB4A5002FB772 /* Charts in Frameworks */ = {isa = PBXBuildFile; productRef = AB129BB1252CB4A5002FB772 /* Charts */; };
@@ -70,6 +72,8 @@
 		16E8FFBF252D4DD700E53B10 /* PopBubbleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopBubbleViewController.swift; sourceTree = "<group>"; };
 		16E8FFD0252D4FE600E53B10 /* Breathing.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Breathing.storyboard; sourceTree = "<group>"; };
 		16E8FFD5252D4FF400E53B10 /* BreathingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathingViewController.swift; sourceTree = "<group>"; };
+		16E8FFDC252D506F00E53B10 /* SmashIt.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SmashIt.storyboard; sourceTree = "<group>"; };
+		16E8FFE2252D509200E53B10 /* SmashItViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmashItViewController.swift; sourceTree = "<group>"; };
 		16FBD2BA252D35E3003A474A /* MiniGamesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniGamesViewController.swift; sourceTree = "<group>"; };
 		16FBD2C2252D35EE003A474A /* MiniGames.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MiniGames.storyboard; sourceTree = "<group>"; };
 		AB284F0E252C3283006B6727 /* Macro43.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Macro43.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -282,6 +286,31 @@
 			path = Controllers;
 			sourceTree = "<group>";
 		};
+		16E8FFDA252D504B00E53B10 /* SmashIt */ = {
+			isa = PBXGroup;
+			children = (
+				16E8FFE1252D508400E53B10 /* Controllers */,
+				16E8FFDB252D506600E53B10 /* Views */,
+			);
+			path = SmashIt;
+			sourceTree = "<group>";
+		};
+		16E8FFDB252D506600E53B10 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				16E8FFDC252D506F00E53B10 /* SmashIt.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		16E8FFE1252D508400E53B10 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				16E8FFE2252D509200E53B10 /* SmashItViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		16FBD2B7252D35C6003A474A /* MiniGames */ = {
 			isa = PBXGroup;
 			children = (
@@ -339,6 +368,7 @@
 		AB284F10252C3283006B6727 /* Macro43 */ = {
 			isa = PBXGroup;
 			children = (
+				16E8FFDA252D504B00E53B10 /* SmashIt */,
 				16E8FFCD252D4FCD00E53B10 /* Beathing */,
 				16FBD2C7252D36BC003A474A /* PopBubble */,
 				16FBD2B7252D35C6003A474A /* MiniGames */,
@@ -494,6 +524,7 @@
 				16E8FFBA252D4DBA00E53B10 /* PopBubble.storyboard in Resources */,
 				16848339252C7F2100BEE46A /* Home.storyboard in Resources */,
 				164B7A42252C8BA400F0C17A /* Settings.storyboard in Resources */,
+				16E8FFDD252D506F00E53B10 /* SmashIt.storyboard in Resources */,
 				16E8FFD1252D4FE600E53B10 /* Breathing.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -526,6 +557,7 @@
 				1684832C252C7EEE00BEE46A /* OnboardingViewController.swift in Sources */,
 				AB284F12252C3283006B6727 /* AppDelegate.swift in Sources */,
 				164B7A2A252C8A3400F0C17A /* DetectEmotionViewController.swift in Sources */,
+				16E8FFE3252D509200E53B10 /* SmashItViewController.swift in Sources */,
 				16E8FFD6252D4FF400E53B10 /* BreathingViewController.swift in Sources */,
 				AB284F14252C3283006B6727 /* SceneDelegate.swift in Sources */,
 				164B7A0F252C88B000F0C17A /* MySpaceViewController.swift in Sources */,

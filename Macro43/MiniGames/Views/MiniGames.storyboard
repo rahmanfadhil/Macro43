@@ -39,6 +39,14 @@
                                     <segue destination="aRr-UG-o4n" kind="show" id="ue5-pW-zzz"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R3u-vh-wpN">
+                                <rect key="frame" x="177" y="619" width="60" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Smash It"/>
+                                <connections>
+                                    <segue destination="7tv-p8-8Fv" kind="show" id="Ip8-7V-9MJ"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="BaX-hR-qPE"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -56,7 +64,7 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="j6f-SZ-Nqd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="692" y="172"/>
+            <point key="canvasLocation" x="712" y="84"/>
         </scene>
         <!--BreathingViewController-->
         <scene sceneID="mx3-dt-cyB">
@@ -66,7 +74,17 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tLI-U9-pgC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="695" y="246"/>
+            <point key="canvasLocation" x="712" y="173"/>
+        </scene>
+        <!--SmashItViewController-->
+        <scene sceneID="Yn6-MS-lbg">
+            <objects>
+                <viewControllerPlaceholder storyboardName="SmashIt" referencedIdentifier="SmashItViewController" id="7tv-p8-8Fv" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="Ixa-Un-XeU"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gvg-XI-0xe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="712" y="258"/>
         </scene>
     </scenes>
     <resources>
