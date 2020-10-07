@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Mini Games View Controller-->
+        <scene sceneID="80g-zm-Gai">
+            <objects>
+                <viewController storyboardIdentifier="MiniGamesViewController" id="C5c-ZV-V0p" customClass="MiniGamesViewController" customModule="Macro43" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bau-Bs-0tJ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Mini Games" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qdh-aW-WAq">
+                                <rect key="frame" x="162" y="438" width="90" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3q0-jE-IhX">
+                                <rect key="frame" x="168" y="502" width="79" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Pop Bubble"/>
+                                <connections>
+                                    <segue destination="YdS-qb-7Mf" kind="show" id="y9m-cg-1Qz"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2ng-eJ-Gtf">
+                                <rect key="frame" x="174" y="557" width="66" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Breathing"/>
+                                <connections>
+                                    <segue destination="aRr-UG-o4n" kind="show" id="ue5-pW-zzz"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R3u-vh-wpN">
+                                <rect key="frame" x="177" y="619" width="60" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Smash It"/>
+                                <connections>
+                                    <segue destination="7tv-p8-8Fv" kind="show" id="Ip8-7V-9MJ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SLD-V3-HxS">
+                                <rect key="frame" x="167" y="678" width="80" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Share Story"/>
+                                <connections>
+                                    <segue destination="hmr-9m-HlC" kind="show" id="Zot-g4-Z1k"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="83E-7n-lTM">
+                                <rect key="frame" x="150" y="738" width="114" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Express Emotion"/>
+                                <connections>
+                                    <segue destination="1jg-wp-Wmc" kind="show" id="4U8-bs-SVt"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="BaX-hR-qPE"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="inK-jc-DIk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="110" y="174"/>
+        </scene>
+        <!--PopBubbleViewController-->
+        <scene sceneID="t2x-mF-mhl">
+            <objects>
+                <viewControllerPlaceholder storyboardName="PopBubble" referencedIdentifier="PopBubbleViewController" id="YdS-qb-7Mf" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="PxH-h1-Tgs"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="j6f-SZ-Nqd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="928" y="58"/>
+        </scene>
+        <!--BreathingViewController-->
+        <scene sceneID="mx3-dt-cyB">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Breathing" referencedIdentifier="BreathingViewController" id="aRr-UG-o4n" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="Amp-e6-b03"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tLI-U9-pgC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="928" y="163"/>
+        </scene>
+        <!--SmashItViewController-->
+        <scene sceneID="Yn6-MS-lbg">
+            <objects>
+                <viewControllerPlaceholder storyboardName="SmashIt" referencedIdentifier="SmashItViewController" id="7tv-p8-8Fv" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="Ixa-Un-XeU"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gvg-XI-0xe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="928" y="245"/>
+        </scene>
+        <!--ShareStoryViewController-->
+        <scene sceneID="cag-bt-xUh">
+            <objects>
+                <viewControllerPlaceholder storyboardName="ShareStory" referencedIdentifier="ShareStoryViewController" id="hmr-9m-HlC" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="OTo-oU-xDT"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kSA-iD-cdC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="928" y="318"/>
+        </scene>
+        <!--ExpressEmotionViewController-->
+        <scene sceneID="6eE-ut-zG0">
+            <objects>
+                <viewControllerPlaceholder storyboardName="ExpressEmotion" referencedIdentifier="ExpressEmotionViewController" id="1jg-wp-Wmc" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="k4Z-zx-Hyg"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="koL-Ua-cHv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="928" y="393"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
