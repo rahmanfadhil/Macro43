@@ -19,6 +19,8 @@
 		16848334252C7EF600BEE46A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16848333252C7EF600BEE46A /* HomeViewController.swift */; };
 		16848339252C7F2100BEE46A /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16848338252C7F2100BEE46A /* Home.storyboard */; };
 		1684833E252C7F4600BEE46A /* Onboarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1684833D252C7F4600BEE46A /* Onboarding.storyboard */; };
+		16E8FFBA252D4DBA00E53B10 /* PopBubble.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16E8FFB9252D4DBA00E53B10 /* PopBubble.storyboard */; };
+		16E8FFC0252D4DD700E53B10 /* PopBubbleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E8FFBF252D4DD700E53B10 /* PopBubbleViewController.swift */; };
 		16FBD2BB252D35E3003A474A /* MiniGamesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FBD2BA252D35E3003A474A /* MiniGamesViewController.swift */; };
 		16FBD2C3252D35EE003A474A /* MiniGames.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16FBD2C2252D35EE003A474A /* MiniGames.storyboard */; };
 		AB129BB2252CB4A5002FB772 /* Charts in Frameworks */ = {isa = PBXBuildFile; productRef = AB129BB1252CB4A5002FB772 /* Charts */; };
@@ -62,6 +64,8 @@
 		16848333252C7EF600BEE46A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		16848338252C7F2100BEE46A /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		1684833D252C7F4600BEE46A /* Onboarding.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Onboarding.storyboard; sourceTree = "<group>"; };
+		16E8FFB9252D4DBA00E53B10 /* PopBubble.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PopBubble.storyboard; sourceTree = "<group>"; };
+		16E8FFBF252D4DD700E53B10 /* PopBubbleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopBubbleViewController.swift; sourceTree = "<group>"; };
 		16FBD2BA252D35E3003A474A /* MiniGamesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniGamesViewController.swift; sourceTree = "<group>"; };
 		16FBD2C2252D35EE003A474A /* MiniGames.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MiniGames.storyboard; sourceTree = "<group>"; };
 		AB284F0E252C3283006B6727 /* Macro43.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Macro43.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -233,6 +237,22 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		16E8FFB7252D4DA600E53B10 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				16E8FFB9252D4DBA00E53B10 /* PopBubble.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		16E8FFB8252D4DAC00E53B10 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				16E8FFBF252D4DD700E53B10 /* PopBubbleViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		16FBD2B7252D35C6003A474A /* MiniGames */ = {
 			isa = PBXGroup;
 			children = (
@@ -258,6 +278,15 @@
 			path = Controllers;
 			sourceTree = "<group>";
 		};
+		16FBD2C7252D36BC003A474A /* PopBubble */ = {
+			isa = PBXGroup;
+			children = (
+				16E8FFB8252D4DAC00E53B10 /* Controllers */,
+				16E8FFB7252D4DA600E53B10 /* Views */,
+			);
+			path = PopBubble;
+			sourceTree = "<group>";
+		};
 		AB284F05252C3283006B6727 = {
 			isa = PBXGroup;
 			children = (
@@ -281,6 +310,7 @@
 		AB284F10252C3283006B6727 /* Macro43 */ = {
 			isa = PBXGroup;
 			children = (
+				16FBD2C7252D36BC003A474A /* PopBubble */,
 				16FBD2B7252D35C6003A474A /* MiniGames */,
 				164B7A36252C8B5A00F0C17A /* Settings */,
 				164B7A26252C8A1200F0C17A /* DetectEmotion */,
@@ -431,6 +461,7 @@
 				164B7A32252C8A4100F0C17A /* DetectEmotion.storyboard in Resources */,
 				AB284F1E252C3285006B6727 /* Assets.xcassets in Resources */,
 				16FBD2C3252D35EE003A474A /* MiniGames.storyboard in Resources */,
+				16E8FFBA252D4DBA00E53B10 /* PopBubble.storyboard in Resources */,
 				16848339252C7F2100BEE46A /* Home.storyboard in Resources */,
 				164B7A42252C8BA400F0C17A /* Settings.storyboard in Resources */,
 			);
@@ -467,6 +498,7 @@
 				AB284F14252C3283006B6727 /* SceneDelegate.swift in Sources */,
 				164B7A0F252C88B000F0C17A /* MySpaceViewController.swift in Sources */,
 				16FBD2BB252D35E3003A474A /* MiniGamesViewController.swift in Sources */,
+				16E8FFC0252D4DD700E53B10 /* PopBubbleViewController.swift in Sources */,
 				164B7A1D252C893A00F0C17A /* InsertNameViewController.swift in Sources */,
 				16848334252C7EF600BEE46A /* HomeViewController.swift in Sources */,
 			);

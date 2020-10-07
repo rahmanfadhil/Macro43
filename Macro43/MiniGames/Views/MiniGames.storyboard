@@ -23,6 +23,14 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3q0-jE-IhX">
+                                <rect key="frame" x="168" y="502" width="79" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Pop Bubble"/>
+                                <connections>
+                                    <segue destination="YdS-qb-7Mf" kind="show" id="y9m-cg-1Qz"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="BaX-hR-qPE"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -31,6 +39,16 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="inK-jc-DIk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="110" y="174"/>
+        </scene>
+        <!--PopBubbleViewController-->
+        <scene sceneID="t2x-mF-mhl">
+            <objects>
+                <viewControllerPlaceholder storyboardName="PopBubble" referencedIdentifier="PopBubbleViewController" id="YdS-qb-7Mf" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="PxH-h1-Tgs"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="j6f-SZ-Nqd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="692" y="172"/>
         </scene>
     </scenes>
     <resources>
