@@ -32,6 +32,7 @@
 		16E8FFFB252D51FF00E53B10 /* ExpressEmotion.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16E8FFFA252D51FF00E53B10 /* ExpressEmotion.storyboard */; };
 		16FBD2BB252D35E3003A474A /* MiniGamesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FBD2BA252D35E3003A474A /* MiniGamesViewController.swift */; };
 		16FBD2C3252D35EE003A474A /* MiniGames.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16FBD2C2252D35EE003A474A /* MiniGames.storyboard */; };
+		5A6C1DF5252D884B00C53897 /* GamesInstruction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6C1DF4252D884B00C53897 /* GamesInstruction.swift */; };
 		AB129BB2252CB4A5002FB772 /* Charts in Frameworks */ = {isa = PBXBuildFile; productRef = AB129BB1252CB4A5002FB772 /* Charts */; };
 		AB129BBC252D670A002FB772 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB129BBB252D670A002FB772 /* CloudKit.framework */; };
 		AB129BC1252D70AE002FB772 /* UserDefaultsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB129BC0252D70AE002FB772 /* UserDefaultsHelper.swift */; };
@@ -88,6 +89,7 @@
 		16E8FFFF252D520F00E53B10 /* ExpressEmotionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpressEmotionViewController.swift; sourceTree = "<group>"; };
 		16FBD2BA252D35E3003A474A /* MiniGamesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniGamesViewController.swift; sourceTree = "<group>"; };
 		16FBD2C2252D35EE003A474A /* MiniGames.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MiniGames.storyboard; sourceTree = "<group>"; };
+		5A6C1DF4252D884B00C53897 /* GamesInstruction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesInstruction.swift; sourceTree = "<group>"; };
 		AB129BB9252D66C7002FB772 /* Macro43.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Macro43.entitlements; sourceTree = "<group>"; };
 		AB129BBB252D670A002FB772 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		AB129BC0252D70AE002FB772 /* UserDefaultsHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsHelper.swift; sourceTree = "<group>"; };
@@ -389,6 +391,7 @@
 		16FBD2B7252D35C6003A474A /* MiniGames */ = {
 			isa = PBXGroup;
 			children = (
+				5A6C1DF3252D882600C53897 /* Model */,
 				16FBD2B9252D35D2003A474A /* Controllers */,
 				16FBD2B8252D35CF003A474A /* Views */,
 			);
@@ -418,6 +421,14 @@
 				16E8FFB7252D4DA600E53B10 /* Views */,
 			);
 			path = PopBubble;
+			sourceTree = "<group>";
+		};
+		5A6C1DF3252D882600C53897 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5A6C1DF4252D884B00C53897 /* GamesInstruction.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		AB129BBA252D670A002FB772 /* Frameworks */ = {
@@ -648,6 +659,7 @@
 				AB284F12252C3283006B6727 /* AppDelegate.swift in Sources */,
 				164B7A2A252C8A3400F0C17A /* DetectEmotionViewController.swift in Sources */,
 				16E8FFE3252D509200E53B10 /* SmashItViewController.swift in Sources */,
+				5A6C1DF5252D884B00C53897 /* GamesInstruction.swift in Sources */,
 				16E8FFD6252D4FF400E53B10 /* BreathingViewController.swift in Sources */,
 				AB129BC1252D70AE002FB772 /* UserDefaultsHelper.swift in Sources */,
 				AB284F14252C3283006B6727 /* SceneDelegate.swift in Sources */,
