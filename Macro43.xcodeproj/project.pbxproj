@@ -20,6 +20,7 @@
 		16848339252C7F2100BEE46A /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16848338252C7F2100BEE46A /* Home.storyboard */; };
 		1684833E252C7F4600BEE46A /* Onboarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1684833D252C7F4600BEE46A /* Onboarding.storyboard */; };
 		16E80000252D520F00E53B10 /* ExpressEmotionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E8FFFF252D520F00E53B10 /* ExpressEmotionViewController.swift */; };
+		16E8000F252D6BE700E53B10 /* MoodHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E8000E252D6BE700E53B10 /* MoodHelper.swift */; };
 		16E8FFBA252D4DBA00E53B10 /* PopBubble.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16E8FFB9252D4DBA00E53B10 /* PopBubble.storyboard */; };
 		16E8FFC0252D4DD700E53B10 /* PopBubbleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E8FFBF252D4DD700E53B10 /* PopBubbleViewController.swift */; };
 		16E8FFD1252D4FE600E53B10 /* Breathing.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16E8FFD0252D4FE600E53B10 /* Breathing.storyboard */; };
@@ -73,6 +74,7 @@
 		16848333252C7EF600BEE46A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		16848338252C7F2100BEE46A /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		1684833D252C7F4600BEE46A /* Onboarding.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Onboarding.storyboard; sourceTree = "<group>"; };
+		16E8000E252D6BE700E53B10 /* MoodHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodHelper.swift; sourceTree = "<group>"; };
 		16E8FFB9252D4DBA00E53B10 /* PopBubble.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PopBubble.storyboard; sourceTree = "<group>"; };
 		16E8FFBF252D4DD700E53B10 /* PopBubbleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopBubbleViewController.swift; sourceTree = "<group>"; };
 		16E8FFD0252D4FE600E53B10 /* Breathing.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Breathing.storyboard; sourceTree = "<group>"; };
@@ -255,6 +257,14 @@
 				1684833D252C7F4600BEE46A /* Onboarding.storyboard */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		16E8000D252D6BD700E53B10 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				16E8000E252D6BE700E53B10 /* MoodHelper.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 		16E8FFB7252D4DA600E53B10 /* Views */ = {
@@ -440,6 +450,7 @@
 			isa = PBXGroup;
 			children = (
 				AB129BB9252D66C7002FB772 /* Macro43.entitlements */,
+				16E8000D252D6BD700E53B10 /* Helpers */,
 				16E8FFF7252D51D400E53B10 /* ExpressEmotion */,
 				16E8FFE7252D512200E53B10 /* ShareStory */,
 				16E8FFDA252D504B00E53B10 /* SmashIt */,
@@ -638,6 +649,7 @@
 				AB284F14252C3283006B6727 /* SceneDelegate.swift in Sources */,
 				164B7A0F252C88B000F0C17A /* MySpaceViewController.swift in Sources */,
 				16FBD2BB252D35E3003A474A /* MiniGamesViewController.swift in Sources */,
+				16E8000F252D6BE700E53B10 /* MoodHelper.swift in Sources */,
 				16E80000252D520F00E53B10 /* ExpressEmotionViewController.swift in Sources */,
 				16E8FFF0252D515900E53B10 /* ShareStoryViewController.swift in Sources */,
 				16E8FFC0252D4DD700E53B10 /* PopBubbleViewController.swift in Sources */,
