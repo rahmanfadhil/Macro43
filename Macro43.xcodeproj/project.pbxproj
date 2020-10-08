@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1611AC7F252F63500032A202 /* ThemeHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1611AC7E252F63500032A202 /* ThemeHelper.swift */; };
 		164B7A0F252C88B000F0C17A /* MySpaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164B7A0E252C88B000F0C17A /* MySpaceViewController.swift */; };
 		164B7A18252C88C100F0C17A /* MySpace.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 164B7A17252C88C100F0C17A /* MySpace.storyboard */; };
 		164B7A1D252C893A00F0C17A /* InsertNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164B7A1C252C893A00F0C17A /* InsertNameViewController.swift */; };
@@ -65,6 +66,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1611AC7E252F63500032A202 /* ThemeHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeHelper.swift; sourceTree = "<group>"; };
 		164B7A0E252C88B000F0C17A /* MySpaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySpaceViewController.swift; sourceTree = "<group>"; };
 		164B7A17252C88C100F0C17A /* MySpace.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MySpace.storyboard; sourceTree = "<group>"; };
 		164B7A1C252C893A00F0C17A /* InsertNameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertNameViewController.swift; sourceTree = "<group>"; };
@@ -271,6 +273,7 @@
 				16E8000E252D6BE700E53B10 /* MoodHelper.swift */,
 				AB129BC0252D70AE002FB772 /* UserDefaultsHelper.swift */,
 				16996FBC252EDDBB000B7B20 /* AlertHelper.swift */,
+				1611AC7E252F63500032A202 /* ThemeHelper.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -673,6 +676,7 @@
 				16E8FFF0252D515900E53B10 /* ShareStoryViewController.swift in Sources */,
 				16E8FFC0252D4DD700E53B10 /* PopBubbleViewController.swift in Sources */,
 				16996FBD252EDDBB000B7B20 /* AlertHelper.swift in Sources */,
+				1611AC7F252F63500032A202 /* ThemeHelper.swift in Sources */,
 				164B7A1D252C893A00F0C17A /* InsertNameViewController.swift in Sources */,
 				16848334252C7EF600BEE46A /* HomeViewController.swift in Sources */,
 			);
