@@ -10,6 +10,7 @@ import UIKit
 enum AssetColor: String {
     case background
     case button
+    case text
 }
 
 enum Theme: String {
@@ -37,5 +38,9 @@ class ThemeHelper {
     static func colorizeButton(_ button: UIButton) {
         button.tintColor = getColor(.background)
         button.backgroundColor = getColor(.button)
+    }
+    
+    static func colorizeLabel(_ label: UILabel) {
+        label.textColor = getColor(.text)
     }
 }
